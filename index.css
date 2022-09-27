@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(42, 41, 41);
+    font-family: 'Segoe UI';
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(42, 41, 41);
+    padding-left: 2px;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+    max-width:100%;
+    
+}
+.charac{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(71, 71, 95);
+    border-radius: 10px;
+    width: 380px;
+    height: 200px;
+    padding-right: 100px;
+}
+.charac .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: inherit;
+
+}
+.charac .image img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+    
+}
+.charac .info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    font-size: 10px;
+    height: inherit;
+    row-gap: 2px;
+    padding-top: 10px;
+    font-weight: bold;
+    width: 250px;
+}
+.charac #last{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap:7px;
+}
+.charac #place{
+    color: rgb(174, 174, 174);
+    font-size: 12px;
+}
+.charac #exact {
+    color: white;
+    font-weight: lighter;
+    font-size: 13px;
+}
+.charac #name{
+    color:white;
+    font-size: 20px;
+}
+.charac #first{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap:10px
+}
+.charac #status{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+}
+.charac #icon{
+    border-radius: 100%;
+    background-color: rgb(6, 181, 6);
+    width: 10px;
+    height: 10px;
+}
+.charac #sit{
+    color:white;
+    font-size: 13px;
+}
